@@ -780,7 +780,8 @@ a {
     font-size: 0.9rem;
     cursor: pointer;
 }
-.last-copy-right-section p{
+
+.last-copy-right-section p {
     text-align: center;
     color: #b3b3b3;
     font-size: 0.7rem;
@@ -790,6 +791,18 @@ a {
     margin: 20px;
 }
 
+.projectsbar-img-01 {
+    height: 350px;
+    overflow: hidden;
+    /* box-shadow: 0px 20px 6px 0px #0b0b0b; */
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.projectsbar-img-01:hover{
+    opacity: 1;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 5px hsl(147.09deg 92.79% 43.53%);
+}
 
 
 
