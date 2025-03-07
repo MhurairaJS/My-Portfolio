@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+html {
+    scroll-behavior: auto;
+  }
+  
 body {
     background: rgb(11 13 14);
     background-repeat: no-repeat;
