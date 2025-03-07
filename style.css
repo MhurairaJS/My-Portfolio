@@ -13,6 +13,9 @@ body {
     font-style: normal;
 }
 
+/* ::placeholder{
+    color: #ffffff;
+} */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -696,7 +699,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 536px;
+    height: 555px;
     padding: 0px;
 
 }
@@ -754,6 +757,7 @@ a {
     border: 1px solid hsl(147.09deg 92.79% 43.53%);
     border-radius: 5px;
     padding: 5px 5px 5px 10px;
+    color: #ffffff;
     height: 50px;
     font-size: 1rem;
     text-transform: capitalize;
