@@ -807,10 +807,29 @@ a {
     transform: scale(1.01);
     box-shadow: 0px 0px 5px 5px hsl(147.09deg 92.79% 43.53%);
 }
+
 .wts-img {
     position: fixed;
-    bottom: 72px;
+    bottom: 24px;
     right: 27px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-bar {
+    display: none;
+    /* Initially hidden */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
 }
 
 

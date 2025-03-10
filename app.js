@@ -50,6 +50,16 @@ function showAnimatedAlert(message) {
         setTimeout(() => alertBox.remove(), 500);
     }, 3000);
 }
-
-// Call function to test
 showAnimatedAlert("WELCOME TO OUR WEBSITE ");
+
+
+
+function toggleSearch() {
+    var searchBar = document.getElementById("searchBar");
+    if (searchBar.style.display === "block") {
+        searchBar.style.display = "none";
+    } else {
+        searchBar.style.display = "block";
+        searchBar.focus(); // Automatically focus on the search bar
+    }
+}
