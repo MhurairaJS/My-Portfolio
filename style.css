@@ -269,19 +269,19 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    animation: autorotate;
-    animation-timeline: view();
+    animation: autorotate both;
+    animation-timeline: view(70% 5%);
 }
 
 @keyframes autorotate {
     from {
         opacity: 0.9;
-        transform: translateY(70px) scale(0.6);
+        transform: translateY(10px) scale(0.8);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0) scale(1);
+        transform: translateY(0px) scale(1);
     }
 }
 
@@ -537,12 +537,6 @@ a {
     font-optical-sizing: auto;
     margin: 10px 0px;
     text-align: center;
-}
-
-
-#services {
-    animation: autorotate;
-    animation-timeline: view();
 }
 
 .services-bar {
@@ -1056,10 +1050,14 @@ a {
         text-align: center;
         margin: 0px;
     }
+    .experience-skill{
+        animation: none;
+    }
 
 }
 
 @media (max-width: 1010px) {
+    
     .center-icon {
         padding: 0px 0px 0px 5rem;
         display: none;
