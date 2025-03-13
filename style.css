@@ -272,12 +272,14 @@ a {
     animation: autorotate;
     animation-timeline: view();
 }
-@keyframes autorotate{
-    from{
-        opacity: 0;
-        transform: translateY(50px) scale(0.6);
+
+@keyframes autorotate {
+    from {
+        opacity: 0.9;
+        transform: translateY(70px) scale(0.6);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
@@ -331,6 +333,11 @@ a {
     border-radius: 5px;
     margin-left: 35px;
 
+}
+
+.experience-skill {
+    animation: autorotate;
+    animation-timeline: view();
 }
 
 .myexp {
@@ -532,6 +539,12 @@ a {
     text-align: center;
 }
 
+
+#services {
+    animation: autorotate;
+    animation-timeline: view();
+}
+
 .services-bar {
     background-color: #131617;
     text-align: center;
@@ -618,6 +631,7 @@ a {
     position: relative;
     background-image: linear-gradient(to left, #030303db 15%, #07080a 30%, #08090b 35%, #0b0d0e 50%);
     padding: 0px;
+
 }
 
 .working-sec>img {
@@ -626,6 +640,11 @@ a {
     opacity: 0.3;
     width: 14%;
     height: 100%;
+}
+
+.our-project {
+    animation: autorotate;
+    animation-timeline: view();
 }
 
 .projects {
@@ -701,6 +720,11 @@ a {
     50% {
         border-color: hsl(147.09deg 92.79% 43.53%)
     }
+}
+
+#testimonials-main {
+    animation: autorotate;
+    animation-timeline: view();
 }
 
 .client-content p {
