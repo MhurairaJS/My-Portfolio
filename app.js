@@ -63,3 +63,12 @@ function toggleSearch() {
         searchBar.focus(); // Automatically focus on the search bar
     }
 }
+
+$(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
+
+
+  
