@@ -1190,7 +1190,12 @@ a {
     .projectsbar {
         padding: 25px 15px;
     }
-
+    .cv-img {
+        width: 100%;
+    }
+    .cv-img img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 920px) {
